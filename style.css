@@ -1,0 +1,1547 @@
+*
+{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000002;
+}
+.mainhead
+{
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 9999;
+}
+.video1
+{
+    width: 100%;
+    position: relative;
+    top: -145px;
+    filter: blur(2px);
+    filter: brightness(0.3);
+    object-fit: cover;
+}
+.navhead a
+{
+    color: antiquewhite;
+}
+.navlogo
+{
+    margin-right: 400px;
+    margin-left: 50px;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.navtext
+{
+   font-weight: 500;
+   padding-left: 30px !important;
+}
+.videotext
+{
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+.videotext h1{
+    font-weight: 1000;
+    color: beige;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+.videotext p
+{
+    color: beige;
+}
+.videotext button
+{
+    background-color: transparent;
+    color: beige;
+    font-size: 1.1em;
+    font-weight: 450;
+    padding: 5px 15px ;
+    border-radius: 30px;
+    border: 1px solid beige;
+}
+.info-main
+{
+    margin-top: -160px;
+    width: 100%;
+    background-color: #000002;
+}
+.info
+{
+    width: 100%;
+    display: flex;
+}
+.info-img
+{
+    width: 50%;
+}
+.info-img img
+{
+    width: 35vw;
+    height: 90vh;
+    padding: 50px 0px 30px 110px;
+    border-radius: 60%;
+}
+.info-text
+{
+    width: 50%;
+    padding: 150px 20px 0px 0px;
+}
+.info-text h1
+{
+    color: #BB792D;
+    font-weight: 900;
+}
+.info-text p
+{
+    color: #ffffff;
+    font-size: 1.1em;
+}
+.info-text button
+{
+    color: #ffffff;
+    background-color: #BB792D;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.packagemain
+{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #000002;
+}
+.packhead 
+{
+    text-align: center;
+    padding: 20px;
+}
+.packhead p
+{
+    color: #ffffff;
+    margin-bottom: -2px;
+}
+.packhead h1{
+    color: #BB792D;
+    font-weight: 800;
+}
+.packages
+{
+    width: 100%;
+    height: 50vh;
+    padding: 20px 60px;
+    display: flex;
+    box-sizing: border-box;
+}
+.packimg
+{
+    width: 35%;
+}
+.packimg img
+{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.packtext
+{
+    width: 35%;
+    height: 40vh;
+    background-color: #0a0a0a;
+    padding: 35px 30px;
+}
+.packtext h3
+{
+    color: #BB792D;
+    font-weight: 700;
+}
+.packtext p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+.packtext button
+{
+    padding: 7px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #BB792D;
+    box-shadow: #BB792D 1px 1px 3px;
+}
+.packtext button img
+{
+    width: 1vw;
+}
+.packprice
+{
+    width: 30%;
+    height: 40vh;
+    background-color: #BB792D;
+    text-align: center;
+}
+.packprice h1
+{
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.packprice p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+.packprice button
+{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    
+}
+.button
+{
+    text-align: center  ;
+}
+.button button
+{
+    background-color: #BB792D;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border:  1px solid #BB792D;
+}
+.gallerymain
+{
+    margin-top: 80px;
+    width: 100%;
+}
+.gallerypics
+{
+    margin: 30px 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+.gallery1
+{
+    width: 33.33%;
+}
+.gallery1 img
+{
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 10px;
+}
+.gallery2
+{
+    width: 33.33%;
+}
+.gallery2 img
+{
+    width: 30vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 10px 0px;
+}
+.gallery3
+{
+    width: 33.33%;
+}
+.gallery3 img
+{
+    width: 30vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 10px;
+}
+.contactmain {
+    background: url(./images/contact.JPG);
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact
+{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.contacttext
+{
+    width: 50%;
+    padding: 0px 0px 0px 100px;
+}
+.contacttext h1
+{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    line-height: 70px;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contacttext p{
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 30px;
+    font-weight: 300;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contactform
+{
+    width: 50%;
+    padding-left: 130px;
+}
+form {
+    height: 72vh;
+    width: 70%;
+    padding: 40px 20px 0px 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.contactbtn
+{
+    margin-top: -60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactbtn button
+{
+    padding: 20px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: #BB792D;
+    color: #ffffff;
+    border: none;
+    box-shadow: #000000 1px 1px 10px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #BB792D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #d1832a;
+}
+
+
+.footer {
+    background-color: #BB792D;
+    padding: 30px ;
+  }
+  
+  .footer h5 {
+    color: #ffffff !important;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    color: #ffffff !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .icon
+  {
+    height: 30px;
+    padding-right: 2%;
+  }
+  
+  .text-centerfot {
+    text-align: center;
+    
+  }
+.cursor
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d1832a;
+    transition: transform .2s ease;
+    transform-origin: center center;
+    pointer-events: none;
+    z-index: 2000;
+}
+.grow{
+
+transform: scale(7);
+background: #ffffff;
+border: none;
+mix-blend-mode: difference;
+width: 40px;
+height: 40px;
+
+}
+
+
+
+
+          /* responsive 1115px screen */
+
+@media (max-width: 1115px) {
+    .video1{
+        height: 100vh;
+        position: relative;
+        top: -62px;   
+        object-fit: cover;
+        filter: blur(2px);
+        filter: brightness(0.4);
+    }
+    .info-main
+    {
+        margin-top: -70px;
+        width: 100%;
+        background-color: #000002;
+    }
+    .info
+    {
+        width: 100%;
+        display: flex;
+    }
+    .info-img
+    {
+        width: 50%;
+    }
+    .info-img img
+    {
+        width: 45vw;
+        height: 90vh;
+        padding: 50px 10px 30px 90px;
+        border-radius: 50%;
+    }.packtext
+    {
+        width: 35%;
+        height: 40vh;
+        background-color: #0a0a0a;
+        padding: 15px 8px;
+    }
+    .packtext h3
+    {
+        color: #BB792D;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    .packtext p
+    {
+        color: #ffffff;
+        font-size: 1em;
+    }
+    .packtext button
+    {
+        padding: 5px 10px;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 30px;
+        border: 1px solid #BB792D;
+        box-shadow: #BB792D 1px 1px 3px;
+    }
+    .packtext button img
+    {
+        width: 1.2vw;
+    }
+
+    .gallerymain
+{
+    margin-top: 80px;
+    width: 100%;
+}
+.gallerypics
+{
+    margin: 30px 50px;
+    display: flex;
+}
+.gallery1
+{
+    width: 33.33%;
+}
+.gallery1 img
+{
+    width: 25vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+.gallery2
+{
+    width: 33.33%;
+}
+.gallery2 img
+{
+    width: 25vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.gallery3
+{
+    width: 33.33%;
+}
+.gallery3 img
+{
+    width: 25vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+
+
+.contacttext
+{
+    width: 40%;
+    padding: 0px 0px 0px 70px;
+}
+.contactform
+{
+    width: 60%;
+    padding-left: 130px;
+}
+form {
+    height: 72vh;
+    width: 80%;
+    padding: 40px 20px 0px 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+
+}
+
+
+
+        /* responsive 963px screen */
+
+@media (max-width: 963px)
+{
+    .packagemain
+{
+    margin-top: 60px;
+    width: 100%;
+}
+.p
+    .packtext
+    {
+        width: 35%;
+        height: 40vh;
+        background-color: #0a0a0a;
+        padding: 15px 8px;
+    }
+    .packtext h3
+    {
+        color: #BB792D;
+        font-weight: 630;
+        font-size: 1.4em;
+    }
+    .packtext p
+    {
+        color: #ffffff;
+        font-size: 0.8em;
+    }
+    .packtext button
+    {
+        padding: 5px 8px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 0.8em;
+        border-radius: 30px;
+        border: 1px solid #BB792D;
+        box-shadow: #BB792D 1px 1px 3px;
+    }
+    .packtext button img
+    {
+        width: 1.3vw;
+    }
+}
+
+
+        /* responsive 890px screen */
+
+@media (max-width: 890px)
+{
+    .contactmain {
+        background: url(/images/contact.jpg);
+        width: 100%;
+        height: 90vh;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    .contact
+    {
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    
+    }
+    .contacttext
+    {
+        width: 40%;
+        padding: 0px 0px 0px 50px;
+    }
+    .contacttext h1
+    {
+        color: #ffffff;
+        font-size: 2.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 600;
+        line-height: 70px;
+        text-shadow: #000000 1px 1px 3px;
+    }
+    .contactform
+    {
+        width: 60%;
+        padding-left: 50px;
+    }
+    form {
+        height: 72vh;
+        width: 80%;
+        padding: 40px 20px 0px 20px;
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 7px;
+    }
+
+
+}
+    
+            /* responsive 786px screen */
+
+@media (max-width: 786px) {
+    .video1{
+        height: 100vh;
+        position: relative;
+        top: -56px;   
+        object-fit: cover;
+        filter: blur(2px);
+        filter: brightness(0.4);
+    }
+    .videotext
+{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+.info-main
+{
+    margin-top: -65px;
+    width: 100%;
+    background-color: #000002;
+}
+.info
+{
+    width: 100%;
+    display: flex;
+}
+.info-img
+{
+    width: 50%;
+}
+.info-img img
+{
+    width: 40vw;
+    height: 80vh;
+    padding: 50px 0px 30px 50px;
+    border-radius: 50%;
+}
+.info-text
+{
+    width: 50%;
+    padding: 150px 0px 0px 0px;
+}
+.info-text p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.packtext
+    {
+        width: 35%;
+        height: 40vh;
+        background-color: #0a0a0a;
+        padding: 5px 5px;
+    }
+    .packtext h3
+    {
+        color: #BB792D;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    .packtext p
+    {
+        color: #ffffff;
+        font-size: 0.8em;
+    }
+    .packtext button
+    {
+        padding: 4px 5px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 0.7em;
+        border-radius: 30px;
+        border: 1px solid #BB792D;
+        box-shadow: #BB792D 1px 1px 3px;
+    }
+    .packtext button img
+    {
+        width: 1.3vw;
+    }
+
+    .button button
+{
+    background-color: #BB792D;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border:  1px solid #BB792D;
+}
+
+.gallerymain
+{
+    margin-top: 80px;
+    width: 100%;
+}
+.gallerypics
+{
+    margin: 30px 30px;
+    display: flex;
+}
+.gallery1
+{
+    width: 33.33%;
+}
+.gallery1 img
+{
+    width: 25vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+.gallery2
+{
+    width: 33.33%;
+}
+.gallery2 img
+{
+    width: 25vw;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.gallery3
+{
+    width: 33.33%;
+}
+.gallery3 img
+{
+    width: 25vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+.contactmain {
+    background: url(/images/contact.jpg);
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact
+{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.contacttext
+{
+    width: 40%;
+    padding: 0px 0px 0px 20px;
+}
+.contacttext h1
+{
+    color: #ffffff;
+    font-size: 2.3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    line-height: 70px;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contacttext p{
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 30px;
+    font-weight: 400;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contactform
+{
+    width: 60%;
+    padding-left: 20px;
+}
+form {
+    height: 70vh;
+    width: 90%;
+    padding: 40px 20px 0px 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.contactbtn
+{
+    margin-top: -60px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contactbtn button
+{
+    padding: 20px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: #BB792D;
+    color: #ffffff;
+    border: none;
+    box-shadow: #000000 1px 1px 10px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+input[type="submit"] {
+    background-color: #BB792D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+}
+
+
+
+
+
+                  /* responsive 635px screen */
+                  
+                  
+@media (max-width: 635px){
+
+    .packages
+{
+    width: 100%;
+    height: 50vh;
+    padding: 10px 20px;
+    margin-bottom: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.packimg
+{
+    width: 70%;
+}
+.packimg img
+{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.packtext
+{
+    width: 70%;
+    height: 40vh;
+    background-color: #0a0a0a;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+.packtext h3
+{
+    color: #BB792D;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+.packtext p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+.packtext button
+{
+    padding: 7px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 30px;
+    border: 1px solid #BB792D;
+    box-shadow: #BB792D 1px 1px 3px;
+}
+.packtext button img
+{
+    width: 2.5vw;
+}
+.packprice
+{
+    width: 70%;
+    height: 40vh;
+    background-color: #BB792D;
+    text-align: center;
+    padding: 0px 0px 40px 0px ;
+    box-sizing: border-box;
+}
+.packprice h1
+{
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.packprice p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+.packprice button
+{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    
+}
+.contactmain {
+    background: url(/images/contact.jpg);
+    width: 100%;
+    height: 120vh;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.contacttext
+{
+    width: 100%;
+    text-align: center;
+}
+.contacttext h1
+{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;   
+    text-shadow: #000000 1px 1px 3px;
+}
+.contacttext p{
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contactform
+{
+    width: 100%;
+}
+form {
+    height: 70vh;
+    width: 70%;
+    padding: 40px 20px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.432);
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-left: 60px;
+}
+.contactbtn
+{
+    margin-top: -60px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contactbtn button
+{
+    padding: 20px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: #BB792D;
+    color: #ffffff;
+    border: none;
+    box-shadow: #000000 1px 1px 10px;
+}
+
+label
+{
+    color: #fffbfb;
+    text-shadow: #000000 1px 1px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+input[type="submit"] {
+    background-color: #BB792D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+}
+
+
+
+
+                  /* responsive 525px screen */
+                  
+                  
+                  @media (max-width: 525px){
+
+                    .info-text
+{
+    width: 50%;
+    padding: 80px 20px 0px 0px;
+}
+                    .packages
+                {
+                    width: 100%;
+                    height: 50vh;
+                    padding: 10px 10px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    box-sizing: border-box;
+                }
+                .packimg
+                {
+                    width: 80%;
+                }
+                .packimg img
+                {
+                    width: 100%;
+                    height: 40vh;
+                    object-fit: cover;
+                }
+                .packtext
+                {
+                    width: 80%;
+                    height: 40vh;
+                    background-color: #0a0a0a;
+                    padding: 10px 8px;
+                    box-sizing: border-box;
+                }
+                .packtext h3
+                {
+                    color: #BB792D;
+                    font-size: 1.3em;
+                    font-weight: 700;
+                }
+                .packtext p
+                {
+                    color: #ffffff;
+                    font-size: 0.9em;
+                }
+                .packtext button
+                {
+                    padding: 7px 15px;
+                    background-color: #000000;
+                    color: #ffffff;
+                    font-size: 0.9em;
+                    border-radius: 30px;
+                    border: 1px solid #BB792D;
+                    box-shadow: #BB792D 1px 1px 3px;
+                }
+                .packtext button img
+                {
+                    width: 2.5vw;
+                }
+                .packprice
+                {
+                    width: 80%;
+                    height: 40vh;
+                    background-color: #BB792D;
+                    text-align: center;
+                }
+                .packprice h1
+                {
+                    margin-top: 30px;
+                    color: #ffffff;
+                    font-size: 3.5em;
+                    font-weight: 800;
+                }
+                .packprice p
+                {
+                    color: #ffffff;
+                    font-size: 1em;
+                }
+                .packprice button
+                {
+                    color: #ffffff;
+                    font-size: 1.2em;
+                    font-weight: 500;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                    background-color: transparent;
+                    border: 2px solid #ffffff;
+                    
+                }
+                .contactmain {
+                    background: url(/images/contact.jpg);
+                    width: 100%;
+                    height: 120vh;
+                    padding: 10px;
+                    background-size: cover;
+                    background-position: center;
+                    
+                }
+                
+                .contact
+                {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                
+                }
+                .contacttext
+                {
+                    width: 100%;
+                    text-align: center;
+                }
+                .contacttext h1
+                {
+                    color: #ffffff;
+                    font-size: 3em;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-weight: 600;   
+                    text-shadow: #000000 1px 1px 3px;
+                }
+                .contacttext p{
+                    color: #ffffff;
+                    font-size: 1.1em;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                    font-weight: 400;
+                    text-shadow: #000000 1px 1px 3px;
+                }
+                .contactform
+                {
+                    width: 100%;
+                }
+                form {
+                    height: 70vh;
+                    width: 85%;
+                    padding: 40px 20px 0px 20px;
+                    background-color: rgba(255, 255, 255, 0.432);
+                    box-sizing: border-box;
+                    border-radius: 7px;
+                    margin-left: 0px;
+                }
+                .contactbtn
+                {
+                    margin-top: -60px;
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+                .contactbtn button
+                {
+                    padding: 20px;
+                    width: 100%;
+                    font-size: 1.1em;
+                    font-weight: 700;
+                    background-color: #BB792D;
+                    color: #ffffff;
+                    border: none;
+                    box-shadow: #000000 1px 1px 10px;
+                }
+                label
+                {
+                    color: #fffbfb;
+                    text-shadow: #000000 1px 1px;
+                }
+                input[type="text"], input[type="email"], textarea {
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 7px;
+                    
+                }
+                input[type="submit"] {
+                    background-color: #BB792D;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    cursor: pointer;
+                }
+                
+                
+                }
+                
+
+
+
+                      /* responsive 375px screen */
+
+@media (max-width: 375px) {
+    .video1{
+        height: 100vh;
+        position: relative;
+        top: -57px;   
+        object-fit: cover;
+        filter: blur(2px);
+        filter: brightness(0.4);
+    }
+    .videotext
+{
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+.info-main
+{
+    margin-top: -65x;
+    width: 100%;
+    background-color: #000002;
+}
+.info
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info-img
+{
+    width: 100%;
+}
+.info-img img
+{
+    width: 85vw;
+    height: 80vh;
+    border-radius: 60%;
+}
+.info-text
+{
+    width: 100%;
+    padding: 30px 10px 10px 10px;
+    text-align: center; 
+}
+.info-text h1
+{
+    color: #BB792D;
+    font-weight: 900;
+}
+.info-text p
+{
+    color: #ffffff;
+    font-size: 1.1em;
+}
+.info-text button
+{
+    color: #ffffff;
+    background-color: #BB792D;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.packages
+{
+    width: 100%;
+    height: 50vh;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.packimg
+{
+    width: 85%;
+}
+.packimg img
+{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+.packtext
+{
+    width: 85%;
+    height: 40vh;
+    background-color: #0a0a0a;
+    padding: 10px 8px;
+    box-sizing: border-box;
+}
+.packtext h3
+{
+    color: #BB792D;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.packtext p
+{
+    color: #ffffff;
+    font-size: 0.8em;
+}
+.packtext button
+{
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.8em;
+    border-radius: 30px;
+    border: 1px solid #BB792D;
+    box-shadow: #BB792D 1px 1px 3px;
+}
+.packtext button img
+{
+    width: 2.3vw;
+}
+.packprice
+{
+    width: 85%;
+    height: 40vh;
+    background-color: #BB792D;
+    text-align: center;
+}
+.packprice h1
+{
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.packprice p
+{
+    color: #ffffff;
+    font-size: 1em;
+}
+.packprice button
+{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    
+}
+.button
+{
+    margin-top: -20px;
+}
+.button button
+{
+    background-color: #BB792D;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 30px;
+    border:  1px solid #BB792D;
+}
+
+.gallerymain
+{
+    margin-top: 80px;
+    width: 100%;
+}
+.gallerypics
+{
+    margin: 30px 10px;
+    display: flex;
+}
+.gallery1
+{
+    width: 33.33%;
+}
+.gallery1 img
+{
+    width: 27vw;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+.gallery2
+{
+    width: 33.33%;
+}
+.gallery2 img
+{
+    width: 27vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.gallery3
+{
+    width: 33.33%;
+}
+.gallery3 img
+{
+    width: 27vw;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+.contactmain {
+    background: url(/images/contact.jpg);
+    width: 100%;
+    height: 120vh;
+    padding: 8px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.contacttext
+{
+    width: 100%;
+    text-align: center;
+}
+.contacttext h1
+{
+    color: #ffffff;
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;   
+    text-shadow: #000000 1px 1px 3px;
+}
+.contacttext p{
+    color: #ffffff;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    text-shadow: #000000 1px 1px 3px;
+}
+.contactform
+{
+    width: 100%;
+}
+form {
+    height: 70vh;
+    width: 90%;
+    padding: 40px 20px 0px 20px;
+    background-color: rgba(255, 255, 255, 0.432);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.contactbtn
+{
+    margin-top: -60px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contactbtn button
+{
+    padding: 20px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color: #BB792D;
+    color: #ffffff;
+    border: none;
+    box-shadow: #000000 1px 1px 10px;
+}
+label
+{
+    color: #fffbfb;
+    text-shadow: #000000 1px 1px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 7px;
+    
+}
+input[type="submit"] {
+    background-color: #BB792D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+}
+
+
